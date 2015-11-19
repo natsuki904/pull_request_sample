@@ -1,8 +1,6 @@
 # pull_requestの練習リポジトリ
 ほげほげ
-<<<<<<< HEAD
-pushの流れ
-=======
+
 ## pushの流れ
 
 ## pullの流れ
@@ -44,4 +42,3 @@ pushの流れ
 +`git branch -d ブランチ名`
 +もし`git branch -D ブランチ名` is not fully merged.`がでれば、
   +`git branch -D ブランチ名`で強制削除も可能
->>>>>>> 7eac539... コミットの戻り方をreadmeに追加
