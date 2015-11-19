@@ -34,4 +34,14 @@ pushの流れ
 2.`git checkout ハッシュ`コマンドで指定したコミットまで戻る
 3.`git checkout ブランチ名`コマンドで最新のコミットに戻る
 
+### 別ブランチのコミットをmasterブランチへ追加する方法
+1.別ブランチでの変更をcommitしきる
+2.`git log --oneline`でコミットのハッシュを見る
+3.`git checkout master`でmasterブランチへ移動
+4.`git cherry-pick ハッシュ`で別ブランチのコミットをmasterへ追加
+
+###ローカルブランチの削除
++`git branch -d ブランチ名`
++もし`git branch -D ブランチ名` is not fully merged.`がでれば、
+  +`git branch -D ブランチ名`で強制削除も可能
 >>>>>>> 7eac539... コミットの戻り方をreadmeに追加
