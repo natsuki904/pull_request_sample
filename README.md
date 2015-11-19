@@ -25,7 +25,7 @@
   +現在いるブランチ上で何かしらの変更を行っていた場合はその変更内容を保存もしくは削除してからブランチを移動すること
 
 ### commitコメントの修正
-+`git commit --amend -m "新規コメント"`コマンドで編集可能
++ `git commit --amend -m "新規コメント"`コマンドで編集可能
 
 ###指定したコミットまでコードを遡る方法
 1. Github上（もしくはlog上）でコミットのハッシュをコピー
@@ -39,6 +39,6 @@
 4. `git cherry-pick ハッシュ`で別ブランチのコミットをmasterへ追加
 
 ###ローカルブランチの削除
-+`git branch -d ブランチ名`
-+もし`git branch -D ブランチ名` is not fully merged.`がでれば、
-  +`git branch -D ブランチ名`で強制削除も可能
++ `git branch -d ブランチ名`
++ もし`git branch -D ブランチ名` is not fully merged.`がでれば、
+  + `git branch -D ブランチ名`で強制削除も可能
